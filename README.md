@@ -3,7 +3,13 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: 
+
+1. find boxes with value of 2 numbers
+2. find twins-boxes: 
+	- with same value
+	- are inter-peers
+3. find the twins' peers intersection, and remove the twins' number from their peers intersection
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
